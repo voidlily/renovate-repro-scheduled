@@ -1,1 +1,7 @@
-{}
+{
+  "schedule": ["every weekend"],
+  "extends": ["config:best-practices"],
+  "ignorePresets": [":maintainLockFilesWeekly"],
+  "dependencyDashboard": true,
+  "rangeStrategy": "bump"
+}
