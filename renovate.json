@@ -1,5 +1,5 @@
 {
-  "schedule": ["every weekend"],
+  "schedule": ["0 0 22 11 * *"],
   "extends": ["config:best-practices"],
   "ignorePresets": [":maintainLockFilesWeekly"],
   "dependencyDashboard": {
