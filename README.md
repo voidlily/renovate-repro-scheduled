@@ -1,5 +1,11 @@
 # 48314
 
+Note: Repo is currently not reproducing the issue properly because of a test
+with a fixed date expression. The correct renovate config is on main as
+`"schedule: ["every weekend"]"`. The intention was to use a fixed date
+expression so the repo would have a correct repro for a longer period of time,
+but that caused a failure to reproduce under that code path.
+
 Renovate schedule "check the box to get this update now" stopped functioning recently.
 
 (note: schedule in the original repo was "every weekday", for reproduction
