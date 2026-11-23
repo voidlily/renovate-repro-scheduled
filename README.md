@@ -1,4 +1,4 @@
-# minimal-reproduction-template
+# 48314
 
 First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
 
@@ -6,12 +6,23 @@ Then replace the current `h1` with the Renovate Issue/Discussion number.
 
 ## Current behavior
 
-Explain the current behavior here.
+(time dependent)
+
+At time of writing, the js-md5 package needs an update, but has not hit the
+scheduled time yet, so it's under "Awaiting Schedule".
+
+Attempting to check the box to get the update now fails.
+
+```text
+DEBUG: Package not scheduled (branch="renovate/js-md5-0.x")
+DEBUG: Skipping branch creation as not within schedule (branch="renovate/js-md5-0.x")
+```
 
 ## Expected behavior
 
-Explain the expected behavior here.
+The js-md5 package should be allowed to update outside of the scheduled time if
+requested manually. This may be a regression.
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+https://github.com/renovatebot/renovate/discussions/48314
